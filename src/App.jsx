@@ -19,13 +19,13 @@ export default function App() {
       <MainVisual />
       <WrapperText />
       <Introduction />
+      <Gallery />
       <Map />
       <Access />
-      <Gallery />
       <Introduction02 />
+      <Gallery02 />
       <Map02 />
       <Access02 />
-      <Gallery02 />
       <Footer />
     </div>
   )

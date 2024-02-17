@@ -3,11 +3,9 @@ import React from "react";
 function Main() {
   return (
     <>
-    <h1 className="text-3xl font-bold text-center mt-20 mb-10">料金案内</h1>
+    <div className="pb-10"style={{ backgroundColor: "#D3F2BB" }}>
+    <h1 className="text-3xl font-bold text-center mt-20 pt-14 mb-10">🏕️　料金</h1>
     <div className="flex flex-col items-center md:flex-row justify-center">
-      <div className="mb-6 md:mb-0 md:mr-12 text-center">
-        <img src="./img/kurosakamap.jpg" alt="地図" className="w-full md:w-auto md:max-w-xl" />
-      </div>
       <div>
         <ul>
           <li className="mb-4">
@@ -27,6 +25,7 @@ function Main() {
           </li>
         </ul>
       </div>
+    </div>
     </div>
     </>
   );

@@ -7,8 +7,7 @@
   padding: 0;
 }
 body{
-  background-color: rgb(169, 228, 166);
-  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+font-family: 'HanziPen SC', sans-serif;
 }
 
 .slider {
@@ -42,4 +41,24 @@ body{
   100% {
     transform: scale(1.1);
   }
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: floatAnimation 1s infinite;
+}
+.text-outline {
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: black; 
 }
