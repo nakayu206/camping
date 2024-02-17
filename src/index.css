@@ -59,6 +59,10 @@ font-family: 'HanziPen SC', sans-serif;
   animation: floatAnimation 1s infinite;
 }
 .text-outline {
-  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-width: 2px; 
   -webkit-text-stroke-color: black; 
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.6); /* 透明度はここで調整します。0に近いほど透明になります。 */
 }

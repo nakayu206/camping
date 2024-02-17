@@ -4,7 +4,7 @@ function Main() {
   return (
     <div>
       <div
-        id="saiko"
+        id="krosaka"
         className="p-4 flex flex-col items-center relative bg-cover bg-center bg-fixed"
         style={{ backgroundImage: `url("./img/kurosaka01.jpg")`, height: "100vh" }}
       >
